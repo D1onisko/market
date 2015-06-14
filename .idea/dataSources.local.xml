@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="7e85382c-90ff-47d1-bf6b-833c5a3bdc79">
+      <user-name>root</user-name>
+      <user-password>dfcbdfc2dfc3dfc6dfc6dfcfdfd9dfd9dfcedf9b</user-password>
+      <schema-pattern>market.*</schema-pattern>
+      <default-schemas>market.*</default-schemas>
+    </data-source>
+    <data-source name="Django default2" uuid="59dde829-6e5c-488a-8b43-c9eb34ccc932">
+      <user-name>root</user-name>
+      <user-password>dfcbdfc2dfc3dfc6dfc6dfcfdfd9dfd9dfcedf9b</user-password>
+      <schema-pattern>market.*</schema-pattern>
+      <default-schemas>market.*</default-schemas>
+    </data-source>
+  </component>
+</project>

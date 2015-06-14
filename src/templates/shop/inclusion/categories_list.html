@@ -1,0 +1,19 @@
+{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
+  <div class="box">
+    <div class="top"><img src="{{ STATIC_PREFIX }}pics/category.png"
+                          alt="{% trans "Categories" %}"
+                          title="{% trans "Categories" %}"/>{% trans "Categories" %}</div>
+    <div id="category" class="middle">
+      <ul>
+        {% for item in categories %}
+        <li><a href="{{ item.get_absolute_url }}">{{ item }}</a></li>
+          {% for subitem in item.category_set.all %}
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ item.get_absolute_url }}">{{ subitem }}</a></li>
+          {% endfor %}
+        {% empty %}
+        <li>{% trans "No categories found." %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="bottom">&nbsp;</div>
+  </div>

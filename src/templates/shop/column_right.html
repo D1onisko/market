@@ -1,0 +1,25 @@
+{% load i18n static cache %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% get_current_language as LANGUAGE_CODE %}
+{% load shop_widgets %}
+<div id="column_right">
+  <div id="module_cart" class="box">
+    <div class="top"><img src="{{ STATIC_PREFIX }}pics/basket.png" alt="" />{% trans "Cart" %}</div>
+
+    <div class="middle">
+      {% cart_tag %}
+    </div>
+    <div class="bottom">&nbsp;</div>
+  </div>
+
+  <div class="box">
+    <div class="top"><img src="{{ STATIC_PREFIX }}pics/brands.png" alt="" />AdSense</div>
+	<div class="middle" style="text-align: left;">
+      {% trans "Place for banners and advertisement." %}
+    </div>
+    <div class="bottom">&nbsp;</div>
+  </div>
+
+  {% cache 900 favorites_tag LANGUAGE_CODE %}{% favorites_tag %}{% endcache %}
+  {% cache 900 recommendation_tag LANGUAGE_CODE %}{% recommendation_tag %}{% endcache %}
+</div>

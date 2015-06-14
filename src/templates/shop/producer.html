@@ -1,0 +1,65 @@
+{% extends "shop/base.html" %}
+{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
+{% load pagination_tags %}
+{% block content %}
+
+{% include "shop/column_left.html" %}
+{% include "shop/column_right.html" %}
+
+<div id="content">
+  <div class="top">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center">
+      <h1>{{ producer.title }}</h1>
+    </div>
+  </div>
+  <div class="middle">
+    <table style="padding-bottom:10px;">
+	  <tbody>
+        <tr>
+	    </tr>
+	  </tbody>
+    </table>
+
+    {% comment %}
+    <div class="sort">
+      <div class="div1">
+        <select name="sort" onchange="location = this.value">
+          <option value="/order/name/asc/" selected="selected">{% trans "Default" %}</option>
+          <option value="/order/name/asc/">{% trans "By name (A-Z)" %}</option>
+          <option value="/order/name/desc/">{% trans "By name (Z-A)" %}</option>
+          <option value="/order/price/asc/">{% trans "By price (Low-High)" %}</option>
+          <option value="/order/price/desc/">{% trans "By price (High-Low)" %}</option>
+          <option value="/order/rating/desc/">{% trans "Rating (High-Low)" %}</option>
+          <option value="/order/rating/asc/">{% trans "Rating (Low-High)" %}</option>
+        </select>
+      </div>
+      <div class="div2">{% trans "Sort" %}:</div>
+    </div>
+    {% endcomment %}
+
+    <div>
+      <div class="list">
+        {% autopaginate producer.product_set.all settings.SHOP_ITEMS_PER_PAGE as object_list %}
+        {% for product in object_list %}
+        {% include "shop/product_list.html" %}
+        {% empty %}
+        <p>{% trans "No item, sorry!" %}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="pagination">
+      <div class="results">{% paginate %}</div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center"></div>
+  </div>
+</div>
+
+{% endblock %}

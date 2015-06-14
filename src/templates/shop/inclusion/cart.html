@@ -1,0 +1,40 @@
+{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
+      <table cellpadding="2" cellspacing="0" style="width: 100%;">
+        <tbody>
+          {% for product in object_list %}
+          <tr>
+            <td align="left" valign="top" style="width:1px">
+              <span class="cart_remove" id="{{ product.pk }}">&nbsp;</span>
+            </td>
+            <td valign="top" align="right" style="width:1px">{{ product.quantity }}&nbsp;x&nbsp;</td>
+            <td align="left" valign="top">
+              <a href="{{ product.url }}">{{ product.title }}</a>
+            </td>
+          </tr>
+          {% empty %}
+          <tr>
+            <td>
+              <div style="text-align: center;">{% trans "No items yet" %}</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% if price > 0.00 %}
+      <br>
+      <table cellpadding="0" cellspacing="0" align="right" style="display:inline-block;">
+        <tbody>
+          <tr>
+            <td align="right"><span class="cart_module_total"><b>{% trans "Price" %}:</b></span></td>
+            <td align="right"><span class="cart_module_total">{{ price|floatformat:2 }} р.</span></td>
+          </tr>
+        </tbody>
+      </table>
+      {% endif %}
+	  <div style="padding-top:5px;text-align:center;clear:both;">
+        {% if object_list %}
+        <a href="{% url shop:cart_show %}">{% trans "Show Items" %}</a>
+        <br/>
+        <a href="{% url shop:checkout %}">{% trans "Checkout" %}</a>
+        {% endif %}
+      </div>

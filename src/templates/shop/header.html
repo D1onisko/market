@@ -1,0 +1,50 @@
+{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
+{% load shop_widgets %}
+
+      <div id="header">
+        <div class="div1">
+          <div class="div2">
+            <a href="{% url shop:home %}"><img src="{{ STATIC_PREFIX }}pics/logo_{{ lang_code }}.png"
+                             title="{{ site_title }}"
+                             alt="{{ site_title }}" /></a>
+          </div>
+          <div class="div3">
+            {# <a href="{% url shop:special %}" style="background-image: url('pics/special.png');">{% trans "Special" %} </a> #}
+            <a onclick="bookmark(document.location, '{{ site_title }}');" id="link-bookmark">{% trans "Bookmark" %}</a>
+            <a href="/shop/contact/" id="link-contact">{% trans "Contact" %}</a>
+            {# <a href="{% url shop:sitemap %}" style="background-image: url('pics/sitemap.png');">{% trans "Sitemap" %}</a> #}
+          </div>
+          <div class="div4">
+            <a href="{% url shop:home %}" id="tab_home">{% trans "Home" %}</a>
+            <a href="{% url blog:home %}" id="tab_blog">{% trans "Blog" %}</a>
+            <a href="{% url shop:checkout %}" id="tab_checkout">{% trans "Checkout" %}</a>
+            <div id="phone_number"><div>{{ settings.SHOP_PHONE_NUMBER }}</div></div>
+          </div>
+          <div class="div5">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="center">
+              {% search_widget_tag %}
+            </div>
+          </div>
+        </div>
+        <div class="div6">
+          <div class="left"></div>
+          <div class="right"></div>
+          <div class="center">
+            <div id="breadcrumb">
+              {% for level in breadcrumb %}
+              <a href="{{ level.url}}">{{ level.title }}</a> {% if not forloop.last %}&gt;{% endif %}
+              {% endfor %}
+            </div>
+            <div class="div7">
+              <select name="language" class="icon-menu" onchange="document.location=$(this).val();">
+                <option value="{% url shop:lang code='ru' %}" {% if "ru" == lang_code %}selected="true"{% endif %}
+                        style="background-image: url({{ STATIC_PREFIX }}pics/flags/ru.png);">Русский</option>
+                <option value="{% url shop:lang code='en' %}" {% if "en" == lang_code %}selected="true"{% endif %}
+                        style="background-image: url({{ STATIC_PREFIX }}pics/flags/us.png);">English</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
