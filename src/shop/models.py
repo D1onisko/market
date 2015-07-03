@@ -2,9 +2,12 @@
 import os
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.translation import ugettext_lazy as _
+
 from PIL import Image
 from sorl.thumbnail import ImageField
-from django.utils.translation import ugettext_lazy as _
+from autoslug import AutoSlugField
+from autoslug.settings import slugify as default_slugify
 
 
 def _add_mini(s):
@@ -19,6 +22,13 @@ def _del_mini(p):
     mini_path = _add_mini(p)
     if os.path.exists(mini_path):
         os.remove(mini_path)
+
+
+def custom_slugify(value):
+    """
+    Функция для перевода русского текста  в поле Slug  модели Product
+    """
+    return default_slugify(value).replace('-', '_')
 
 
 class Category(models.Model):
@@ -49,7 +59,6 @@ class Product(models.Model):
     category = models.ForeignKey(Category, verbose_name=_(u'Category'))
     user_name = models.ForeignKey(User, related_name='+', to_field='username')
     title = models.CharField(verbose_name=_(u'Title'), max_length=64)
-    slug = models.SlugField(max_length=80)
     price = models.FloatField(verbose_name=_(u'Price'))
     phone = models.IntegerField(verbose_name=_(u'Phone'), max_length=16)
     hide_phone = models.BooleanField(verbose_name=_(u'Hide Phone'), default=None)
@@ -57,6 +66,7 @@ class Product(models.Model):
     descp = models.TextField(verbose_name=_(u'Description'), null=True, blank=True)
     image = models.ImageField(verbose_name=_(u'Image'), upload_to=u'itempics')
     registered = models.DateTimeField(verbose_name=_(u'Registered'), auto_now_add=True)
+    slug = AutoSlugField(populate_from='title', slugify=custom_slugify)
 
     class Meta:
         verbose_name = _(u'Продукт')

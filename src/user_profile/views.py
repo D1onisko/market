@@ -12,10 +12,7 @@ from src.shop.models import Product
 @render_to('user_profile/profiles.html')
 def profile(request):
     profile_page = Product.objects.filter(user_name=request.user)
-    if request.POST.get('delete'):
-        Product.objects.filter.delete()
     return {"profile_vivods": profile_page}
-
 
 
 # вывод странички после добавления записи
@@ -28,7 +25,6 @@ def done(request):
 # добавление лота
 @render_to('user_profile/addform.html')
 def addform(request):
-
     if request.method == "POST":
         form = AddForm(request.POST, request.FILES)
         if form.is_valid():
@@ -43,8 +39,8 @@ def addform(request):
 
 
 @render_to('user_profile/redaktor.html')
-def redaktor(request, lot_id=1):
-    lot = Product.objects.get(id=lot_id)
+def redaktor(request, product_id=1):
+    product = Product.objects.get(id=product_id)
     if request.method == "POST":
         form = UpdateForm(request.POST)
         if form.is_valid():
@@ -54,5 +50,13 @@ def redaktor(request, lot_id=1):
             return redirect('src.user_profile.views.done')
     else:
         form = UpdateForm()
-    return {'lot': lot, 'update_form': form}
+    return {'product': product, 'update_form': form}
 
+
+# Удаление продукта
+@render_to('shop/index.html')
+def product_delete(request, product_id):
+    d = get_object_or_404(Product, pk=product_id)
+    product_del = d.descp
+    d.delete()
+    return {'product_del': product_del}
