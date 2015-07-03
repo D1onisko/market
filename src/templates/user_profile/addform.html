@@ -1,0 +1,20 @@
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block content %}
+    <div>
+    {% if user.is_authenticated %}
+        <form action="/accounts/addform/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="button" type="submit" value="Отправить">
+    </form>
+
+    {% else %}
+       <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+    {% endif %}
+
+
+
+    </div>
+
+{% endblock %}

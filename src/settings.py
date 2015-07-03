@@ -42,7 +42,9 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
 
     'haystack',
-    'sorl',
+    'annoying',
+    'sorl.thumbnail',
+    'registration',
 
 
     'src.user_profile',

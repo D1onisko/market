@@ -1,0 +1,17 @@
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Subject: Account activation on example.com
+From: info@google.ru
+To: asda@mail.com
+Date: Thu, 02 Jul 2015 17:35:24 -0000
+Message-ID: <20150702173524.7013.59020@robik>
+
+
+Activate account at example.com:
+
+http://127.0.0.1:8000/accounts/activate/09a079b62a455e9d320695738e7e2ba0a8e4b018/
+
+Link is valid for 2 days.
+
+-------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
-{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
-{% load shop_widgets %}
-<div id="column_left">
+{% load i18n static %}
 
-  {% categories_list_tag %}
-  {% producers_tag %}
-  {% flatpage_list_tag %}
-</div>
+<aside class="left-sidebar">
+			<strong>Menu:</strong>
+            <a href="{% url 'src.user_profile.views.profile' %}">профайл</a>
+            <p>
+            <a href="/">Главная страничка</a>
+</aside>
