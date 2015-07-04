@@ -2,7 +2,6 @@
 from django.conf import settings
 from django.http import Http404
 from django.shortcuts import redirect, get_object_or_404
-from django.core.urlresolvers import reverse
 from annoying.decorators import render_to
 
 from src.shop.models import Product
@@ -16,6 +15,6 @@ def index(request):
 
 # вывод детального описания лота
 @render_to('shop/product.html')
-def product_detail(request, product_id=1):
-    product = Product.objects.get(id=product_id)
+def product_detail(request, slug):
+    product = get_object_or_404(Product, slug=slug)
     return {'product': product}

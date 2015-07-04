@@ -3,6 +3,7 @@ import os
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import ugettext_lazy as _
+from django.core.urlresolvers import reverse
 
 from PIL import Image
 from sorl.thumbnail import ImageField
@@ -16,14 +17,10 @@ def _add_mini(s):
     if parts[-1].lower() not in ['jpeg', 'jpg']:
         parts[-1] = 'jpg'
     return ".".join(parts)
-
-
 def _del_mini(p):
     mini_path = _add_mini(p)
     if os.path.exists(mini_path):
         os.remove(mini_path)
-
-
 def custom_slugify(value):
     """
     Функция для перевода русского текста  в поле Slug  модели Product
@@ -48,15 +45,13 @@ class Category(models.Model):
     def __unicode__(self):
         return self.title
 
-    def get_absolute_url(self):
-        return reverse('shop:category', args=[self.slug])
 
 
 class Product(models.Model):
     """
     Определение продукта.
     """
-    category = models.ForeignKey(Category, verbose_name=_(u'Category'))
+    category = models.ForeignKey(Category, verbose_name=_(u'Category'), related_name='entries')
     user_name = models.ForeignKey(User, related_name='+', to_field='username')
     title = models.CharField(verbose_name=_(u'Title'), max_length=64)
     price = models.FloatField(verbose_name=_(u'Price'))
@@ -115,5 +110,4 @@ class Product(models.Model):
         super(Product, self).delete()
 
     def get_absolute_url(self):
-        return 'photo_detail', None, {'object_id': self.id}
-
+        return reverse('product_detail', args=[str(self.slug)])

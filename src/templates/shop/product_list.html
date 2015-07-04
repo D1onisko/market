@@ -9,7 +9,8 @@
 <div class='cen'><div align ='center' style ='margin-top:25px;'>{{ product_vivod.price }}</div></div>
 <div class='telefon'>{{ product_vivod.phone }}<img src=''></div>
 <div class='data'>{{ product_vivod.registered }}<div style='margin-left:12px;'>{{ product_vivod.user_name }}<div style='position:static;margin-top:-17px;margin-left:550px;'></div>
-<div class='' style="margin-left: 250px"><a href='/product/get/{{product_vivod.id}}/'>{{ product_vivod.title }}</a></div>
+<div class='' style="margin-left: 250px"><a href="{{ product_vivod.get_absolute_url }}">{{ product_vivod.title }}</a>
+</div>
 </div></div></div>
 
                     {% endthumbnail %}

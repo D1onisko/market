@@ -16,7 +16,7 @@
 <div class='cen'><div align ='center' style ='margin-top:25px;'>{{ vivod.price }}</div></div>
 <div class='telefon'><a href='/profile/redaktor/get/{{vivod.id}}/'>редактировать</a></div>
 <div class='data'>{{ vivod.registered }}<div style='margin-left:12px;'>{{ vivod.user_name }}<div style='position:static;margin-top:-17px;margin-left:550px;'></div>
-<div class='' style="margin-left: 250px"><a href='/product/get/{{vivod.id}}/'>{{ vivod.title }}</a></div>
+<div class='' style="margin-left: 250px"><a href="{{ vivod.get_absolute_url }}">{{ vivod.title }}</a></div>
 </div></div></div>
 
         {% endthumbnail %}
