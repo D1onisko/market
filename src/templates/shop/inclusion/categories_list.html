@@ -1,0 +1,13 @@
+{% load i18n static %}
+
+  <div class="box">
+    <div class="top">Категории</div>
+    <div id="category" class="middle">
+      <ul>
+       {% for category in categories %}
+            <li><a href="{{ category.get_absolute_url }}">{{ category }}</a></li>
+            {% endfor %}
+      </ul>
+    </div>
+    <div class="bottom">&nbsp;</div>
+  </div>

@@ -4,7 +4,7 @@
     {% if user.is_authenticated %}
         {% trans "Привет" %}: {{ user.username }}
         (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> |
-         <a href="{% url 'src.user_profile.views.profile' %}">профайл</a>)
+         <a href="{% url 'profile' %}">профайл</a>)
 
     {% else %}
        <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>

@@ -1,0 +1,33 @@
+{% load i18n static %}{% get_static_prefix as STATIC_PREFIX %}
+  <div class="box">
+    <div class="top"><img src="{{ STATIC_PREFIX }}pics/featured.png"
+                          alt="{{ widget_title }}"
+                          title="{{ widget_title }}" />{{ widget_title }}</div>
+    <div class="middle">
+      <table cellpadding="2" cellspacing="0" style="width: 100%;">
+        {% for product in product_list %}
+        <tr>
+          <td valign="top" style="width:1px">
+            <a href="{{ product.get_absolute_url }}"><img src="{{ product.get_thumbnail_38 }}"
+                                                       alt="{{ product.title }}"
+                                                       title="{{ product.title }}"/></a>
+          </td>
+          <td valign="top">
+            <a href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+            <br />
+            <span style="font-size: 11px; color: #900;">{{ product.price|floatformat:2 }} р.</span>
+            <a class="button_add_small" href="/cart/ {{ product.pk }}" title="{% trans "Add to the cart" %}" >&nbsp;</a>
+            {# <br /><img src="{{ STATIC_PREFIX }}pics/stars_3.png" alt="3 из 5 баллов!" /> #}
+          </td>
+        </tr>
+        {% empty %}
+        <tr>
+          <td>
+            <div style="text-align: center;">{% trans "No items yet" %}</div>
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    <div class="bottom">&nbsp;</div>
+  </div>

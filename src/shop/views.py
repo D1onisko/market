@@ -4,7 +4,7 @@ from django.http import Http404
 from django.shortcuts import redirect, get_object_or_404
 from annoying.decorators import render_to
 
-from src.shop.models import Product
+from src.shop.models import Product, Category
 
 
 @render_to('shop/index.html')
@@ -14,7 +14,14 @@ def index(request):
 
 
 # вывод детального описания лота
-@render_to('shop/product.html')
-def product_detail(request, slug):
-    product = get_object_or_404(Product, slug=slug)
+@render_to('shop/detail.html')
+def product_detail(request, pk):
+    product = get_object_or_404(Product, pk=pk)
     return {'product': product}
+
+@render_to('shop/category.html')
+def category(request, pk):
+    obj = get_object_or_404(Category, pk=pk)
+    category_vivod = Product.objects.filter(category_id=pk)
+    return {'category': obj, 'category_vivod': category_vivod}
+

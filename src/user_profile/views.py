@@ -54,9 +54,14 @@ def redaktor(request, product_id=1):
 
 
 # Удаление продукта
-@render_to('shop/index.html')
+@render_to('user_profile/profiles.html')
 def product_delete(request, product_id):
     d = get_object_or_404(Product, pk=product_id)
     product_del = d.descp
     d.delete()
+    if not False == product_delete:
+        # перенаправление после удаления обьявлени
+        return redirect('src.user_profile.views.profile')
+
     return {'product_del': product_del}
+

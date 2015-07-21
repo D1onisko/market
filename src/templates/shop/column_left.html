@@ -1,8 +1,11 @@
 {% load i18n static %}
+{% load shop_widgets %}
 
 <aside class="left-sidebar">
 			<strong>Menu:</strong>
-            <a href="{% url 'src.user_profile.views.profile' %}">профайл</a>
-            <p>
-            <a href="/">Главная страничка</a>
+            <a href="{% url 'profile' %}">профайл</a>
+            <br>
+            <a href="{% url "index" %}">Главная страничка</a>
+
+{% categories_list_tag %}
 </aside>

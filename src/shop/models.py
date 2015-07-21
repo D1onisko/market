@@ -17,10 +17,14 @@ def _add_mini(s):
     if parts[-1].lower() not in ['jpeg', 'jpg']:
         parts[-1] = 'jpg'
     return ".".join(parts)
+
+
 def _del_mini(p):
     mini_path = _add_mini(p)
     if os.path.exists(mini_path):
         os.remove(mini_path)
+
+
 def custom_slugify(value):
     """
     Функция для перевода русского текста  в поле Slug  модели Product
@@ -32,27 +36,30 @@ class Category(models.Model):
     """
     Описание категории
     """
-    parent = models.ForeignKey(u'self', verbose_name=_(u'Parent'), blank=True, null=True)
+    parent = models.ForeignKey(u'self', verbose_name=_(u'Parent'), blank=True, null=True, related_name=u'categories')
     title = models.CharField(verbose_name=_(u'Title'), max_length=64)
-    slug = models.SlugField(max_length=80)
+    slug = AutoSlugField(populate_from='title', slugify=custom_slugify)
     is_active = models.BooleanField(verbose_name=_(u'Is active'), default=None)
 
     class Meta:
-        verbose_name = _(u'Категория')
-        verbose_name_plural = _(u'Категории')
+        verbose_name = _(u'Category')
+        verbose_name_plural = _(u'Categories')
         ordering = ('title',)
 
     def __unicode__(self):
         return self.title
 
+    @models.permalink
+    def get_absolute_url(self):
+        return 'category', [self.pk]
 
 
 class Product(models.Model):
     """
     Определение продукта.
     """
-    category = models.ForeignKey(Category, verbose_name=_(u'Category'), related_name='entries')
-    user_name = models.ForeignKey(User, related_name='+', to_field='username')
+    category = models.ForeignKey(Category, verbose_name=_(u'Category'), related_name=u'entries')
+    user_name = models.ForeignKey(User, related_name='+', to_field=u'username')
     title = models.CharField(verbose_name=_(u'Title'), max_length=64)
     price = models.FloatField(verbose_name=_(u'Price'))
     phone = models.IntegerField(verbose_name=_(u'Phone'), max_length=16)
@@ -64,8 +71,8 @@ class Product(models.Model):
     slug = AutoSlugField(populate_from='title', slugify=custom_slugify)
 
     class Meta:
-        verbose_name = _(u'Продукт')
-        verbose_name_plural = _(u'Продукты')
+        verbose_name = _(u'Product')
+        verbose_name_plural = _(u'Products')
         ordering = ('title',)
 
     def __unicode__(self):
@@ -110,4 +117,4 @@ class Product(models.Model):
         super(Product, self).delete()
 
     def get_absolute_url(self):
-        return reverse('product_detail', args=[str(self.slug)])
+        return reverse('product_detail', args=[str(self.pk)])

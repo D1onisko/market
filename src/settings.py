@@ -45,6 +45,9 @@ INSTALLED_APPS = (
     'annoying',
     'sorl.thumbnail',
     'registration',
+    'pagination',
+    'ordered_model',
+
 
 
     'src.user_profile',
