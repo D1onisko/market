@@ -19,9 +19,12 @@ def product_detail(request, pk):
     product = get_object_or_404(Product, pk=pk)
     return {'product': product}
 
-@render_to('shop/category.html')
-def category(request, pk):
-    obj = get_object_or_404(Category, pk=pk)
-    category_vivod = Product.objects.filter(category_id=pk)
-    return {'category': obj, 'category_vivod': category_vivod}
 
+# меню сайта
+@render_to('shop/category.html')
+def category(request, slug, ):
+    category_menu = get_object_or_404(Category, slug=slug)
+
+    # фильтрация продуктов определенной категории
+    category_vivod = Product.objects.filter(category_id=category_menu.pk)
+    return {'category': category_menu, 'category_vivod': category_vivod}
