@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.conf import settings
 from django.contrib import admin
+from django_mptt_admin.admin import DjangoMpttAdmin
 
 from src.shop import models
 
@@ -23,7 +24,7 @@ class Product(admin.ModelAdmin):
 admin.site.register(models.Product, Product)
 
 
-class Category(admin.ModelAdmin):
+class Category(DjangoMpttAdmin):
     list_display = ('title', 'parent', 'is_active', )
     fieldsets = ( (None, {'fields': ('parent', 'title', ('is_active',),)}), )
     search_fields = ('title',)

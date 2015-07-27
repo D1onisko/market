@@ -2,8 +2,8 @@
 from django.conf import settings
 from django.http import Http404
 from django.shortcuts import redirect, get_object_or_404
-from annoying.decorators import render_to
 
+from annoying.decorators import render_to
 from src.shop.models import Product, Category
 
 
@@ -22,9 +22,11 @@ def product_detail(request, pk):
 
 # меню сайта
 @render_to('shop/category.html')
-def category(request, slug, ):
-    category_menu = get_object_or_404(Category, slug=slug)
-
+def category(request, slug):
+    current_category = get_object_or_404(Category, slug=slug)
+    root_category_id = current_category.get_root()
     # фильтрация продуктов определенной категории
-    category_vivod = Product.objects.filter(category_id=category_menu.pk)
-    return {'category': category_menu, 'category_vivod': category_vivod}
+    category_vivod = Product.objects.filter(category_id=current_category.pk)
+    return dict(current_category=current_category,
+                root_category_id=root_category_id,
+                category_vivod=category_vivod)

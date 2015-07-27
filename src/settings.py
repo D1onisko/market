@@ -47,6 +47,10 @@ INSTALLED_APPS = (
     'registration',
     'pagination',
     'ordered_model',
+    'mptt',
+    'django_mptt_admin',
+
+
 
 
 
