@@ -1,0 +1,25 @@
+{% extends 'shop/base.html' %}
+{% load thumbnail %}
+
+{% block content %}
+
+<a href="/accounts/addform/">перейти к добавления файла</a><br>
+<h2>Вывод обьявлений ----{{ user.username }}:</h2><p>
+
+
+{% for vivod in profile_vivods %}
+        {% thumbnail vivod.image "150x150" as profile_vivods %}
+
+<div class='curved-vt-2'>
+<a href="{{ vivod.image.url }}" target='_blank'><img class='avatar' src = '{{ profile_vivods.url }}' width = '80' height = '70' /></a>
+<div class='nazv'>{{ vivod.descp }}</div>
+<div class='cen'><div align ='center' style ='margin-top:25px;'>{{ vivod.price }}</div></div>
+<div class='telefon'><a href='/profile/redaktor/get/{{vivod.id}}/'>редактировать</a></div>
+<div class='data'>{{ vivod.registered }}<div style='margin-left:12px;'>{{ vivod.user_name }}<div style='position:static;margin-top:-17px;margin-left:550px;'></div>
+<div class='' style="margin-left: 250px"><a href="{{ vivod.get_absolute_url }}">{{ vivod.title }}</a></div>
+</div></div></div>
+
+        {% endthumbnail %}
+    {% endfor %}
+
+{% endblock %}

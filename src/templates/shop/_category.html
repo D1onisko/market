@@ -1,0 +1,10 @@
+{% load i18n  %}
+
+<aside class="widget" id="recipe-category-{{ category.pk }}">
+    <h5 class="short_headline"><span>{{ category }}</span></h5>
+
+                {% for product_vivod in category_vivod %}
+                {% include "shop/product_list.html" %}
+                {% endfor %}
+
+</aside>

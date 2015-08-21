@@ -1,0 +1,12 @@
+{% extends "shop/base.html" %}
+{% load i18n static %}
+
+{% block content %}
+
+
+                {% for product_vivod in product_list %}
+                    {% include "shop/product_list.html" %}
+                {% endfor %}
+
+
+{% endblock %}

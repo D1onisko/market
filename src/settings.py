@@ -42,7 +42,16 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
 
     'haystack',
-    'sorl',
+    'annoying',
+    'sorl.thumbnail',
+    'registration',
+    'pagination',
+    'ordered_model',
+    'mptt',
+    'django_mptt_admin',
+
+
+
 
 
     'src.user_profile',

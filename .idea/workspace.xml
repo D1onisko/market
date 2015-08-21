@@ -1,7 +1,651 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a917b52-2900-4463-9a3c-0d49fd4b6a5d" name="Default" comment="" />
+    <list default="true" id="4a917b52-2900-4463-9a3c-0d49fd4b6a5d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/cache/04/d0/04d0406d0e466be17eb79f67a5f6d0d4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/195893.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/cache/32/3f/323f5d457c18e170b469403ea954d2e4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/cache/ee/58/ee5815fb7797f0dc0a0fc168c1600548.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/cache/f6/84/f684a136eef632cdb0caa7204f7e68f6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/images.mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/луис.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/луис2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/луис2.mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/луис2_QoZrH9v.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/луис2_QoZrH9v.mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/скачанные_файлы.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/скачанные_файлы_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/media/itempics/скачанные_файлы_2.mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0003_auto_20150614_2059.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0004_auto_20150614_2101.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0005_auto_20150614_2102.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0006_auto_20150614_2104.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0007_auto_20150614_2130.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/migrations/0008_auto_20150614_2201.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/20150702-203524-140550129798224.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/activate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/activation_complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/activation_email.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/activation_email_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/user_profile/addform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/d1onis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/user_profile/done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/user_profile/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/shop/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/logout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_change_done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_change_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/user_profile/profiles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/user_profile/redaktor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/registration_closed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/registration_complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/registration/registration_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shop/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/user_profile/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/shop/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/css/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/farbtastic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/farbtastic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/farbtastic/wheel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/js/DD_belatedPNG_0.0.8a-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/js/ajax_api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/js/jquery-1.5.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/js/wysiwyg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/ajax_load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/basket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/bestsellers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/box_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/box_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/brands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/bullet_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/bullet_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/button_add_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/button_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/button_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/button_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/button_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/category.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/chat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_bottom_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_bottom_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_bottom_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_top_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_top_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/content_top_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/discount.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/featured.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/af.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/al.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/am.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/an.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/as.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/at.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/au.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/aw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ax.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/az.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/be.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/br.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/by.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/bz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ci.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/co.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/cz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/de.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/dj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/dk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/dm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/do.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/dz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/eg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/eh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/england.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/er.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/es.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/et.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/fr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/gy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/hk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/hn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/hr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ht.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/hu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/id.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/il.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/io.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/iq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ir.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/is.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/it.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/jm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/jo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/jp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ki.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/km.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/kz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/la.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/li.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/lv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/md.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ml.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/my.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/mz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/na.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ne.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ng.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/np.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/nz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/om.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ps.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/pw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/py.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/qa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/rw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/scotland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/se.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/si.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/so.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/sz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/td.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/th.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/to.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/tz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/um.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/us.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/uy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/uz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/va.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/vc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ve.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/vg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/vi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/vn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/vu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/wales.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/wf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ws.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/ye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/yt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/za.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/zm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/flags/zw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_1_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_1_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_1_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_2_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_2_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/header_2_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/latest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/list_remove_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/loading_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/logo_en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/logo_ru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/mobile_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/no_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/payment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/sitemap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/special.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/stars_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/stars_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/stars_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/stars_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/stars_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/switcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/tab_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/tab_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/pics/tab_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/jquery.tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/css/advhr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/js/rule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advhr/rule.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/css/advimage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/img/sample.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/css/advlink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/js/advlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlink/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autolink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autolink/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/autosave/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/emotions.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/js/emotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/dialog.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/img/example.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/js/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/inlinepopups/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/layer/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/lists/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/lists/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/js/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/media.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/js/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/js/pasteword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/pastetext.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/paste/pasteword.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/preview/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/preview/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/print/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/save/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/spellchecker/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/spellchecker/img/wline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/css/props.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/js/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/style/props.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/cell.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/css/cell.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/css/row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/css/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/js/cell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/js/merge_cells.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/js/row.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/js/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/merge_cells.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/row.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/table/table.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/blank.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/template/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/about.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/anchor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/charmap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/color_picker.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/colorpicker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/iframe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/quicktime.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/realmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/shockwave.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/video.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/img/windowsmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/charmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/color_picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/js/source_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/shortcuts.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/items.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/img/tabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/highcontrast/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/highcontrast/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/advanced/source_editor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/tiny_mce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/tiny_mce_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/utils/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/utils/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/utils/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/tiny_mce/utils/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/cart_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/checkout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/common_page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/flatpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/cart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/categories_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/categories_select.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/flatpage_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/item_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/producers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/inclusion/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/lookup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/order_notify.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/producer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/shop/status.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop/admin.py" afterPath="$PROJECT_DIR$/src/shop/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/base.html" afterPath="$PROJECT_DIR$/src/templates/shop/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/column_left.html" afterPath="$PROJECT_DIR$/src/templates/shop/column_left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/column_right.html" afterPath="$PROJECT_DIR$/src/templates/shop/column_right.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/footer.html" afterPath="$PROJECT_DIR$/src/templates/shop/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/header.html" afterPath="$PROJECT_DIR$/src/templates/shop/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop/models.py" afterPath="$PROJECT_DIR$/src/shop/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/product.html" afterPath="$PROJECT_DIR$/src/templates/shop/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/shop/product_list.html" afterPath="$PROJECT_DIR$/src/templates/shop/product_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/settings.py" afterPath="$PROJECT_DIR$/src/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/src.iml" afterPath="$PROJECT_DIR$/.idea/src.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/css/style.css" afterPath="$PROJECT_DIR$/src/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/urls.py" afterPath="$PROJECT_DIR$/src/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/views.py" afterPath="$PROJECT_DIR$/src/core/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop/views.py" afterPath="$PROJECT_DIR$/src/shop/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_profile/views.py" afterPath="$PROJECT_DIR$/src/user_profile/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="src.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15402,44 +16046,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15448,17 +16055,45 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/src/user_profile/models.py" />
-        <option value="$PROJECT_DIR$/src/shop/admin.py" />
         <option value="$PROJECT_DIR$/src/temlates/shop/base.html" />
-        <option value="$PROJECT_DIR$/src/urls.py" />
+        <option value="$PROJECT_DIR$/src/shop/test_category.py" />
+        <option value="$PROJECT_DIR$/src/shop/admin.py" />
+        <option value="$PROJECT_DIR$/src/templates/shop/common_page.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/lookup.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/column_right.html" />
         <option value="$PROJECT_DIR$/src/shop/models.py" />
+        <option value="$PROJECT_DIR$/src/templates/shop/footer.html" />
         <option value="$PROJECT_DIR$/src/settings.py" />
+        <option value="$PROJECT_DIR$/src/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/mail/20150702-203524-140550129798224.log" />
+        <option value="$PROJECT_DIR$/src/templates/shop/category.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/home.html" />
+        <option value="$PROJECT_DIR$/src/core/views.py" />
+        <option value="$PROJECT_DIR$/src/shop/views.py" />
+        <option value="$PROJECT_DIR$/src/core/urls.py" />
+        <option value="$PROJECT_DIR$/src/shop/urls.py" />
+        <option value="$PROJECT_DIR$/src/urls.py" />
+        <option value="$PROJECT_DIR$/src/templates/shop/base.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/product.html" />
+        <option value="$PROJECT_DIR$/src/user_profile/urls.py" />
+        <option value="$PROJECT_DIR$/src/templates/shop/column_left.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/product_list.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/index.html" />
+        <option value="$PROJECT_DIR$/src/templates/user_profile/profiles.html" />
+        <option value="$PROJECT_DIR$/src/templates/shop/header.html" />
+        <option value="$PROJECT_DIR$/src/templates/user_profile/addform.html" />
+        <option value="$PROJECT_DIR$/src/user_profile/forms.py" />
+        <option value="$PROJECT_DIR$/src/user_profile/views.py" />
+        <option value="$PROJECT_DIR$/src/templates/user_profile/done.html" />
       </list>
     </option>
   </component>
@@ -15470,11 +16105,11 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1171" />
-    <option name="width" value="747" />
+    <option name="x" value="965" />
+    <option name="width" value="953" />
     <option name="height" value="1045" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -15497,6 +16132,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -15533,10 +16170,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user_profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user_profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -15546,9 +16239,23 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="items&#9;FILE&#9;file:///home/d1onis/market/src/static/tiny_mce/themes/advanced/skins/default/img/items.gif" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/user_profile" />
+      <recent name="$PROJECT_DIR$/src/templates/user_profile" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+      <recent name="$PROJECT_DIR$/src/static/css" />
+      <recent name="$PROJECT_DIR$/src/shop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/templates/shop" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.market">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -15813,19 +16520,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1171" y="0" width="747" height="1045" extended-state="0" />
+    <frame x="965" y="0" width="953" height="1045" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25820258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21520342" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32038835" sideWeight="0.49358973" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22545847" sideWeight="0.49358973" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21574973" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26240352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.49678457" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21574973" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30312836" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -15834,7 +16542,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.49678457" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -15858,6 +16565,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -15865,60 +16573,8 @@
     <entry file="file://$PROJECT_DIR$/src/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -15967,14 +16623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/djangodev/local/lib/python2.7/site-packages/django/core/urlresolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="496" column="4" selection-start-line="496" selection-start-column="4" selection-end-line="496" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/djangodev/local/lib/python2.7/site-packages/django/utils/html.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12732475">
@@ -16007,51 +16655,319 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30357143">
           <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/djangodev/local/lib/python2.7/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33285713">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/_abcoll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33285713">
+          <caret line="437" column="6" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/djangodev/local/lib/python2.7/site-packages/django/core/urlresolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3342857">
+          <caret line="496" column="4" selection-start-line="496" selection-start-column="4" selection-end-line="496" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3918723">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65312046">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/activation_email.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8693759">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/activate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail/20150702-203524-140550129798224.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30857143">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/registration_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29420504">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/registration_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4011887">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/registration/activation_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18287373">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07837445">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44412193">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.287373">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3918723">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/user_profile/redaktor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/column_right.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054380666">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13595167">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9147982">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46818182">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020618556">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14432989">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5914286">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34769687">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/user_profile/profiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45468053">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/user_profile/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025459688">
+        <state vertical-scroll-proportion="0.025714286">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/admin.py">
+    <entry file="file://$PROJECT_DIR$/src/templates/shop/column_left.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.1872214">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_profile/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10419682">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/user_profile/done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13554217">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_profile/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39073807">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="e#24#56#0" expanded="true" />
+            <element signature="e#15#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/urls.py">
+    <entry file="file://$PROJECT_DIR$/src/user_profile/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05815832">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31259045">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/models.py">
+    <entry file="file://$PROJECT_DIR$/src/templates/user_profile/addform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.05421687">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
